@@ -85,4 +85,26 @@ Upload the image and select the expantion percentage and enter prompt which give
 <br>
  ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/model_outputs/Screenshot%202025-06-25%20160753.png)<br>
  Expantion percentage - 25% <br>
- prompt - A winding dirt path disappears into a dense, sun-dappled jungle.
+ prompt - A winding dirt path disappears into a dense, sun-dappled jungle.  
+
+# Evaluation
+Using the evaluation code Clip-score is calculated that calculates the overall prompt adherance of the model to the prompt. Currently Tested only on 10 images. <br>
+![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/screenshots/Screenshot%202025-06-25%20164840.png)<br>
+<br>
+
+## Interpretation
+
+- **30–35**: Decent semantic alignment. Your captions generally match the image content well.
+- **>35**: Strong alignment — notably, the frog (36.84) and the magical forest (35.11) did well.
+- **<30**: Lower alignment — the medieval warrior (28.96) and "relistic cat" (28.26) might benefit from more precise captions or improved generation fidelity.
+
+## Takeaways
+
+- Your prompts are detailed and stylistically rich — that helps boost scores.
+- A few minor tweaks (e.g., typo in "relistic") could improve scores.
+- Using concrete nouns and actions (like "holding a board") tends to get higher alignment.
+
+
+
+
+
