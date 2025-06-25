@@ -48,3 +48,41 @@ Note - **Its recommended to run one notebook on google colab and another on kagg
 4. Click on the gradio app link generated after successfull execution and use the app.
 
  ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/screenshots/Screenshot%202025-06-25%20155318.png)<br>
+
+ # Features
+
+ ### Image generation
+ Enter Input prompt and click  on generate to start the image generation.
+
+#### Inpainting
+Upload the image you want to perform inpainting on and use the marker to highlight the image section where you want to perform inpainting and enter the prompt to guide the model for inpainting like "generate a glass".
+
+#### Outpainting
+Upload the image and select the expantion percentage and enter prompt which gives a brief summary of the image so that model can understand what is in the image and it can outpainting the image.
+
+# Sample Outputs
+ ### Image generation
+ ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/model_outputs/Screenshot%202025-06-25%20153509.png)<br>
+ prompt - Generate image of a realistic dog
+<br>
+<br>
+ ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/model_outputs/Screenshot%202025-06-25%20153519.png)<br>
+ prompt - Generate image of a frog holding a whiteboard with "bye" written on it.
+
+#### Inpainting
+ ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/model_outputs/Screenshot%202025-06-25%20160724.png)<br>
+ prompt - Write "hi" on the board
+<br>
+<br>
+ ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/model_outputs/Screenshot%202025-06-25%20160731.png)<br>
+ prompt - Man wearing a grey jacket with white t-shirt
+ 
+#### Outpainting
+ ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/model_outputs/Screenshot%202025-06-25%20160806.png)<br>
+ Expantion percentage - 25% <br>
+ prompt - A Calm lake reflecting green lush green hills and distant hizy mountains under soft overcast sky.
+<br>
+<br>
+ ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/model_outputs/Screenshot%202025-06-25%20160753.png)<br>
+ Expantion percentage - 25% <br>
+ prompt - A winding dirt path disappears into a dense, sun-dappled jungle.
