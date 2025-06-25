@@ -92,13 +92,13 @@ Using the evaluation code Clip-score is calculated that calculates the overall p
 ![can't display screenshot](https://github.com/Shobhit043/Flux_project/blob/main/images/screenshots/Screenshot%202025-06-25%20164840.png)<br>
 <br>
 
-## Interpretation
+### Interpretation
 
 - **30–35**: Decent semantic alignment. Your captions generally match the image content well.
 - **>35**: Strong alignment — notably, the frog (36.84) and the magical forest (35.11) did well.
 - **<30**: Lower alignment — the medieval warrior (28.96) and "relistic cat" (28.26) might benefit from more precise captions or improved generation fidelity.
 
-## Takeaways
+### Takeaways
 
 - Your prompts are detailed and stylistically rich — that helps boost scores.
 - A few minor tweaks (e.g., typo in "relistic") could improve scores.
